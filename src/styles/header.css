@@ -1,4 +1,6 @@
 .siteHeader {
+  width: 1920px;
+  height: 100px;
   display: flex;
   background-color: #e2eae1;
   height: 100px;
@@ -6,8 +8,9 @@
 
 .goBackButton {
   font-size: 32px;
-  padding: 35px;
+  padding: 24px;
   text-align: left;
+  color: #707070;
 }
 
 .title {
