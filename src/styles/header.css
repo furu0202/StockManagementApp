@@ -1,5 +1,5 @@
 .siteHeader {
-  width: 1920px;
+  max-width: 1920px;
   height: 100px;
   display: flex;
   background-color: #e2eae1;
@@ -13,8 +13,9 @@
   color: #707070;
 }
 
-.title {
+.titleArea {
   text-align: center;
+  padding: 16px;
   font-size: 48px;
 }
 
