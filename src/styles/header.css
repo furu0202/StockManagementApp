@@ -2,6 +2,8 @@
   max-width: 1920px;
   height: 100px;
   display: flex;
+  justify-content: space-between;
+  width: 100%;
   background-color: #e2eae1;
   height: 100px;
 }
@@ -9,18 +11,19 @@
 .goBackButton {
   font-size: 32px;
   padding: 24px;
+  margin-left: 36px;
   text-align: left;
-  color: #707070;
 }
 
 .titleArea {
-  text-align: center;
   padding: 16px;
   font-size: 48px;
 }
 
 .text {
-  padding-left: 73px;
+  padding-left: 36px;
+  margin-top: 20px;
   border-radius: 20px;
-  width: 387px;
+  width: 296px;
+  height: 50px;
 }
