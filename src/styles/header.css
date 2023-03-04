@@ -1,9 +1,9 @@
 .siteHeader {
-  max-width: 1920px;
-  height: 100px;
+  max-width: 1440px;
   display: flex;
+  align-items: center;
+  padding: 0 4%;
   justify-content: space-between;
-  width: 100%;
   background-color: #e2eae1;
   height: 100px;
 }
@@ -11,18 +11,28 @@
 .goBackButton {
   font-size: 32px;
   padding: 24px;
-  margin-left: 36px;
   text-align: left;
 }
 
 .titleArea {
-  padding: 16px;
   font-size: 48px;
+}
+
+.searchArea {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.GrSearch {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
 }
 
 .text {
   padding-left: 36px;
-  margin-top: 20px;
   border-radius: 20px;
   width: 296px;
   height: 50px;
