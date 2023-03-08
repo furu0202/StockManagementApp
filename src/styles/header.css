@@ -17,8 +17,11 @@
 
 .HiOutlineHome {
   position: absolute;
-  top: 12%;
+  color: #666666;
+  top: 9%;
   left: 4%;
+  width: 24px;
+  height: 32px;
 }
 
 .titleArea {
