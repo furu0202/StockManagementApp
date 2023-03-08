@@ -15,6 +15,12 @@
   color: #666666;
 }
 
+.HiOutlineHome {
+  position: absolute;
+  top: 12%;
+  left: 4%;
+}
+
 .titleArea {
   font-size: 48px;
 }
