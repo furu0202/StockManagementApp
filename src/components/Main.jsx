@@ -1,20 +1,27 @@
 import React from 'react';
-import 'src/styles/main.css';
+import { mocList } from 'src/moc';
+import 'src/styles/Main.css';
 
 const Main = () => {
   return (
     <div>
       <table border='1'>
         <tr>
-          <th>aaaaa</th>
-          <th>9999</th>
-          <th>0000</th>
+          <th>商品コード</th>
+          <th>商品名</th>
+          <th>分類</th>
+          <th>在庫数</th>
         </tr>
-        <tr>
-          <td>ああああ</td>
-          <td>2222</td>
-          <td>7777</td>
-        </tr>
+        {mocList.map((listData, key) => {
+          return (
+            <tr key={key}>
+              <td>{listData.itemCode}</td>
+              <td>{listData.itemName}</td>
+              <td>{listData.category}</td>
+              <td>{listData.stock}</td>
+            </tr>
+          );
+        })}
       </table>
     </div>
   );
