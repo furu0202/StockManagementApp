@@ -2,12 +2,15 @@ import React from 'react';
 import 'src/styles/header.css';
 import { HiOutlineHome } from 'react-icons/hi';
 import { GrSearch } from 'react-icons/gr';
+import { useNavigate } from 'react-router-dom';
+
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <div className={'siteHeader'}>
-      {/* ========= 戻るエリア ======== */}
+      {/* ========= TOP画面へ戻るエリア ======== */}
       <div className={'goBackButton'}>
-        <a href='#'>TOP画面へ戻る</a>
+        <button onClick={() => navigate('/Home/')}>TOP画面へ戻る</button>
       </div>
       <HiOutlineHome className={'HiOutlineHome'} />
       {/* ======== タイトル画面エリア ======== */}
