@@ -10,7 +10,7 @@ const Header = () => {
     <div className={'siteHeader'}>
       {/* ========= TOP画面へ戻るエリア ======== */}
       <div className={'goBackButton'}>
-        <button onClick={() => navigate('/Home/')}>TOP画面へ戻る</button>
+        <button onClick={() => navigate('/TOP/')}>TOP画面へ戻る</button>
       </div>
       <HiOutlineHome className={'HiOutlineHome'} />
       {/* ======== タイトル画面エリア ======== */}
