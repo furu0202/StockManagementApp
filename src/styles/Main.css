@@ -1,3 +1,7 @@
 table th {
   width: 360px;
 }
+
+table td {
+  text-align: center;
+}
