@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import 'src/styles/Top.css';
 
 const Top = () => {
   const navigate = useNavigate();
