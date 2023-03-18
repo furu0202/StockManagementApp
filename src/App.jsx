@@ -1,14 +1,14 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from 'src/components/Home';
-import Top from 'src/components/Top';
+import ManagementScreen from 'src/components/ManagementScreen';
+import TopScreen from 'src/components/TopScreen';
 import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Top />} />
-        <Route path='/Home/' element={<Home />} />
+        <Route path='/' element={<TopScreen />} />
+        <Route path='/stock-management' element={<ManagementScreen />} />
       </Routes>
     </BrowserRouter>
   );

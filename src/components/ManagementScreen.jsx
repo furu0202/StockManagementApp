@@ -2,7 +2,7 @@ import React from 'react';
 import Header from 'src/components/Header';
 import Main from 'src/components/Main';
 
-const Home = () => {
+const ManagementScreen = () => {
   return (
     <div>
       <Header />
@@ -11,4 +11,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default ManagementScreen;
