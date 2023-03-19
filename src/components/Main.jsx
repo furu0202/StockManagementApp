@@ -14,7 +14,7 @@ const Main = () => {
         </tr>
         {mocList.map((listData, key) => {
           return (
-            <tr key={key}>
+            <tr key={key} className={key % 2 === 0 ? '' : 'bg-gray'}>
               <td>{listData.itemCode}</td>
               <td>{listData.itemName}</td>
               <td>{listData.category}</td>

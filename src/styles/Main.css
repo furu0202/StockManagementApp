@@ -1,8 +1,12 @@
 table th {
-  width: 360px;
+  width: auto;
   background-color: #cccccc;
 }
 
 table td {
   text-align: center;
+}
+
+.bg-gray {
+  background-color: #dddddd;
 }
