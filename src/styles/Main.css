@@ -1,5 +1,7 @@
 table {
   border-collapse: collapse;
+  margin: auto;
+  margin-top: 30px;
 }
 
 table th {
