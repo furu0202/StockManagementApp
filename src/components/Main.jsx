@@ -11,6 +11,7 @@ const Main = () => {
           <th>分類</th>
           <th>商品名</th>
           <th>在庫数</th>
+          <th>最終発注日</th>
         </tr>
         {mocList.map((listData, key) => {
           return (
@@ -19,6 +20,7 @@ const Main = () => {
               <td>{listData.category}</td>
               <td>{listData.itemName}</td>
               <td>{listData.stock}</td>
+              <td>{listData.lastOrder}</td>
             </tr>
           );
         })}
