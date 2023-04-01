@@ -31,8 +31,20 @@ table td {
 .stock {
   width: 48px;
 }
-.itemName {
-  width: 360px;
+
+.itemCodeValue {
+  max-width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.itemNameValue {
+  max-width: 360px;
+  min-width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .lastOrder {

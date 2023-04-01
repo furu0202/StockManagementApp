@@ -17,11 +17,15 @@ const Main = () => {
           </tr>
           {mocList.map((listData, key) => {
             return (
-              <tr key={key} className={key % 2 === 0 ? '' : 'bg-gray'}>
-                <td>{listData.itemCode}</td>
-                <td>{listData.category}</td>
-                <td>{listData.itemName}</td>
-                <td>{listData.stock}</td>
+              <tr
+                key={key}
+                onClick={() => alert(`これはIDが${listData.itemCode}です`)}
+                className={key % 2 === 0 ? '' : 'bg-gray'}
+              >
+                <td className={'itemCodeValue'}>{listData.itemCode}</td>
+                <td className={'categoryValue'}>{listData.category}</td>
+                <td className={'itemNameValue'}>{listData.itemName}</td>
+                <td className={'stockValue'}>{listData.stock}</td>
                 <td>{listData.lastOrder}</td>
                 <td>{listData.detail}</td>
               </tr>
