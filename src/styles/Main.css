@@ -10,13 +10,14 @@ table tr:hover td {
 
 table th {
   width: auto;
+  padding: 1em;
   background-color: #a9ceec;
 }
 
 table td {
+  padding: 1em;
   text-align: center;
   cursor: pointer;
-  padding: 1em;
 }
 
 .bg-gray {
