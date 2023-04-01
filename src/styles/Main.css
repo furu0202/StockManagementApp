@@ -20,6 +20,24 @@ table td {
   cursor: pointer;
 }
 
+.itemCode {
+  width: 120px;
+}
+
+.category {
+  width: 120px;
+}
+
+.stock {
+  width: 48px;
+}
+.itemName {
+  width: 360px;
+}
+
+.lastOrder {
+  width: 120px;
+}
 .bg-gray {
   background-color: #dddddd;
 }

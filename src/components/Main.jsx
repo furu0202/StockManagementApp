@@ -8,12 +8,12 @@ const Main = () => {
       <table border='1'>
         <tbody>
           <tr>
-            <th>商品コード</th>
-            <th>分類</th>
-            <th>商品名</th>
-            <th>在庫数</th>
-            <th>最終発注日</th>
-            <th>詳細</th>
+            <th className={'itemCode'}>商品コード</th>
+            <th className={'category'}>分類</th>
+            <th className={'itemName'}>商品名</th>
+            <th className={'stock'}>在庫数</th>
+            <th className={'lastOrder'}>最終発注日</th>
+            <th className={'detail'}>詳細</th>
           </tr>
           {mocList.map((listData, key) => {
             return (
