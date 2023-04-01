@@ -18,7 +18,7 @@ const Header = () => {
         <GrSearch className={'GrSearch'} />
         <input
           type='search'
-          className={'text'}
+          className={'searchInputArea'}
           placeholder={'商品名を入力してください。'}
         />
       </div>
