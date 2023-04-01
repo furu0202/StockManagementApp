@@ -8,7 +8,9 @@ const Header = () => {
   return (
     <div className={'siteHeader'}>
       {/* ========= TOP画面へ戻るエリア ======== */}
-      <div className={'goBackButton'}>TOP画面へ戻る</div>
+      <div className={'goBackButton'}>
+        <button onClick={() => navigate('/')}>TOP画面へ戻る</button>
+      </div>
       {/* ======== タイトル画面エリア ======== */}
       <div className={'titleArea'}>商品管理画面</div>
       {/* ======== 検索画面エリア ======== */}
