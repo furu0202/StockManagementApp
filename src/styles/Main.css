@@ -9,6 +9,7 @@ table tr:hover td {
 }
 
 table th {
+  font-size: 24px;
   width: auto;
   padding: 1em;
   background-color: #a9ceec;

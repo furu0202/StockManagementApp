@@ -11,7 +11,7 @@ const Main = () => {
             <th className={'itemCode'}>商品コード</th>
             <th className={'category'}>分類</th>
             <th className={'itemName'}>商品名</th>
-            <th className={'stock'}>在庫数</th>
+            <th className={'stock'}>在庫</th>
             <th className={'lastOrder'}>最終発注日</th>
             <th className={'detail'}>詳細</th>
           </tr>
