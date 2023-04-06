@@ -1,8 +1,10 @@
 import React from 'react';
 import { mocList } from 'src/moc';
+import { useNavigate } from 'react-router-dom';
 import 'src/styles/Main.css';
 
 const Main = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <table border='1'>
