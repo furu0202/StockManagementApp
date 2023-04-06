@@ -1,10 +1,8 @@
 import React from 'react';
 import { mocList } from 'src/moc';
-import { useNavigate } from 'react-router-dom';
 import 'src/styles/Main.css';
 
-const Main = () => {
-  const navigate = useNavigate();
+const Main = ({ navigate }) => {
   return (
     <div>
       <table border='1'>
@@ -21,7 +19,9 @@ const Main = () => {
             return (
               <tr
                 key={key}
-                onClick={() => alert(`これはIDが${listData.itemCode}です`)}
+                onClick={() => {
+                  navigate(`/${listData.itemCode}`);
+                }}
                 className={key % 2 === 0 ? '' : 'bg-gray'}
               >
                 <td className={'itemCodeValue'}>{listData.itemCode}</td>
