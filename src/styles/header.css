@@ -1,7 +1,6 @@
 .siteHeader {
   max-width: 1440px;
   display: flex;
-  align-items: center;
   padding: 0 4%;
   justify-content: space-between;
   background-color: #e2eae1;
@@ -12,10 +11,12 @@
   font-size: 24px;
   padding: 24px;
   text-align: left;
-  color: #666666;
 }
 
 .titleArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 48px;
   font-weight: 550;
 }
@@ -37,7 +38,7 @@
   padding-left: 40px;
   border-radius: 20px;
   border: solid;
-  width: 296px;
+  width: 248px;
   height: 50px;
 }
 
