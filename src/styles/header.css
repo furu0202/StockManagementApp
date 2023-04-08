@@ -1,5 +1,6 @@
 .siteHeader {
-  width: 100%;
+  max-width: 100%;
+  min-width: 980px;
   height: 100px;
   display: flex;
   padding: 0 4%;
