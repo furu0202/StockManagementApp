@@ -1,13 +1,16 @@
 .siteHeader {
-  max-width: 1440px;
+  width: 100%;
+  height: 100px;
   display: flex;
   padding: 0 4%;
   justify-content: space-between;
   background-color: #e2eae1;
-  height: 100px;
 }
 
 .goBackButton {
+  display: flex;
+  position: relative;
+  align-items: center;
   font-size: 24px;
   padding: 24px;
   text-align: left;
