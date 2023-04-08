@@ -28,7 +28,7 @@ const Main = ({ navigate }) => {
                 <td className={'categoryValue'}>{listData.category}</td>
                 <td className={'itemNameValue'}>{listData.itemName}</td>
                 <td className={'stockValue'}>{listData.stock}</td>
-                <td>{listData.lastOrder}</td>
+                <td className={'lastOrderValue'}>{listData.lastOrder}</td>
                 <td>{listData.detail}</td>
               </tr>
             );
