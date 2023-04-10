@@ -13,7 +13,6 @@ const Main = ({ navigate }) => {
             <th className={'itemName'}>商品名</th>
             <th className={'stock'}>在庫</th>
             <th className={'lastOrder'}>最終発注日</th>
-            <th className={'detail'}>詳細</th>
           </tr>
           {mocList.map((listData, key) => {
             return (
@@ -29,7 +28,6 @@ const Main = ({ navigate }) => {
                 <td className={'itemNameValue'}>{listData.itemName}</td>
                 <td className={'stockValue'}>{listData.stock}</td>
                 <td className={'lastOrderValue'}>{listData.lastOrder}</td>
-                <td>{listData.detail}</td>
               </tr>
             );
           })}
