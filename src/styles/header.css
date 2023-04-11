@@ -13,8 +13,12 @@
   position: relative;
   align-items: center;
   font-size: 24px;
-  padding: 24px;
-  text-align: left;
+}
+
+.goBackButton button {
+  background-color: white;
+  width: 10em;
+  height: 3em;
 }
 
 .titleArea {
