@@ -16,9 +16,12 @@
 }
 
 .goBackButton button {
-  background-color: white;
+  background-color: floralwhite;
   width: 10em;
   height: 3em;
+  border-radius: 20px;
+  border: solid;
+  cursor: pointer;
 }
 
 .titleArea {
