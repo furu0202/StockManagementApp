@@ -26,6 +26,7 @@
 
 .goBackButton:hover button {
   background-color: #fff3b8;
+  margin-top: 5px;
 }
 
 .titleArea {
