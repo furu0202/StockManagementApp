@@ -24,6 +24,10 @@
   cursor: pointer;
 }
 
+.goBackButton:hover button {
+  background-color: #fff3b8;
+}
+
 .titleArea {
   display: flex;
   justify-content: center;
