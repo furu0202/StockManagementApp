@@ -17,8 +17,8 @@
 
 .goBackButton button {
   background-color: floralwhite;
-  width: 10em;
-  height: 3em;
+  width: 160px;
+  height: 50px;
   border-radius: 20px;
   border: solid;
   cursor: pointer;
