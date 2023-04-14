@@ -24,7 +24,7 @@
   cursor: pointer;
 }
 
-.goBackButton:hover button {
+.goBackButton button:hover {
   background-color: #fff3b8;
   margin-top: 5px;
 }
