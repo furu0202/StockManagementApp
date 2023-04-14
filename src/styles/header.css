@@ -17,6 +17,7 @@
 
 .goBackButton button {
   background-color: floralwhite;
+  letter-spacing: 0.12em;
   width: 160px;
   height: 50px;
   border-radius: 20px;
